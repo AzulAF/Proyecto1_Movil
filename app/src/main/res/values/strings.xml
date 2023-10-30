@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Proyecto 1</string>
+    <string name="tvInstructions">Según la formula, inserte los valores a calcular</string>
+    <string name="chicharronera" translatable="false">ax^2 + bx + c = 0</string>
+    <string name="gravedad" translatable="false">F = G (M1*M2)/(r^2)</string>
+    <string name="aceleracion" translatable="false">a = (Vf - Vi)/t</string>
+    <string name="Calculate">Calcular</string>
+    <string name="Calculate2">Calcular Fuerza</string>
+    <string name="Calculate3">Calcular Aceleracion</string>
+    <string name="Variable_a">var a</string>
+    <string name="Variable_b">var b</string>
+    <string name="Variable_c">var c</string>
+    <string name="Variable_r">r [m]</string>
+    <string name="Variable_M1">M1 [KG]</string>
+    <string name="Variable_M2">M2 [KG]</string>
+    <string name="Variable_t">t [s]</string>
+    <string name="Variable_vf">vf</string>
+    <string name="Variable_vi">vi</string>
+    <string name="Resultado">Resultado</string>
+    <string name="inserte_valor_1">Inserte un valor en a</string>
+    <string name="inserte_valor_2">Inserte un valor en b</string>
+    <string name="inserte_valor_3">Inserte un valor en c</string>
+    <string name="resultados_chicharronera">La raíz 1 es %1$.2f. y la raíz 2 es %2$.2f. </string>
+    <string name="resultados_fuerza">La fuerza gravitacional es de %.5f x10^-9 N</string>
+    <string name="resultados_aceleracion">La aceleracion es de %.2f</string>
+    <string name="splash_text">Cargando</string>
+    <string name="splash_text_version">Version 1.0.0</string>
+    <string name="splash_text_autora">Azul AF</string>
+    <string name="splash_text_titulo">CalcuBreve</string>
+    <string name="error_variables">La ecuación no tiene soluciones reales</string>
+    <string-array name="Operaciones">
+        <item>Ecuación de segundo grado</item>
+        <item>Fuerza gravitacional</item>
+        <item>Aceleracion</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto 1</string>
+    <string name="tvInstructions">According to the formula, please type the values</string>
+    <string name="Calculate">Calculate</string>
+    <string name="Calculate2">Calculate Force</string>
+    <string name="Calculate3">Calculate Acceleration</string>
+    <string name="Variable_a">var a</string>
+    <string name="Variable_b">var b</string>
+    <string name="Variable_c">var c</string>
+    <string name="Resultado">Result</string>
+    <string name="inserte_valor_1">Please type a value in a</string>
+    <string name="inserte_valor_2">Please type a value in b</string>
+    <string name="inserte_valor_3">Please type a value in c</string>
+    <string name="resultados_chicharronera">"The first root is: %1$.2f. and the second root is: %2$.2f. "</string>
+    <string name="splash_text">Loading</string>
+    <string name="Variable_r">r [m]</string>
+    <string name="Variable_M1">M1 [KG]</string>
+    <string name="Variable_M2">M2 [KG]</string>
+    <string name="Variable_t">t [s]</string>
+    <string name="Variable_vf">vf</string>
+    <string name="Variable_vi">vi</string>
+    <string name="resultados_fuerza">The gravitational force is %.5f x10^-9 N</string>
+    <string name="resultados_aceleracion">Acceleration is %.2f </string>
+    <string name="error_variables">The equation has no real solutions</string>
+    <string name="splash_text_version">Version 1.0.0</string>
+    <string name="splash_text_autora">Azul AF</string>
+    <string name="splash_text_titulo">CalcuBreve</string>
+    <string-array name="Operaciones">
+        <item>Second grade equation</item>
+        <item>Gravitational Force</item>
+        <item>Acceleration</item>
+    </string-array>
+</resources>

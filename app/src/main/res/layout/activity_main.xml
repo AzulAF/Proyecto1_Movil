@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+
+    <!-- Variable c de ecuaciones -->
+    <EditText
+        android:id="@+id/etVariable_c"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_c"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+        />
+
+    <!-- Variable b de ecuaciones -->
+    <EditText
+        android:id="@+id/etVariable_b"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_b"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+
+/>
+    <!-- Variable a de ecuaciones -->
+    <EditText
+        android:id="@+id/etVariable_a"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_a"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        android:visibility="invisible"
+        />
+
+    <!-- Variable r de gravedad -->
+    <EditText
+        android:id="@+id/etVariable_r"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_r"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+        />
+
+    <!-- Variable M2 de gravedad -->
+    <EditText
+        android:id="@+id/etVariable_M2"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_M2"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+
+        />
+    <!-- Variable M1 de gravedad -->
+    <EditText
+        android:id="@+id/etVariable_M1"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_M2"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        android:visibility="invisible"
+        />
+
+    <!-- Variable t de aceleracion -->
+    <EditText
+        android:id="@+id/etVariable_t"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_t"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+        />
+
+    <!-- Variable VF de aceleracion -->
+    <EditText
+        android:id="@+id/etVariable_VF"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_vf"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:visibility="invisible"
+
+        />
+    <!-- Variable VI de aceleracion -->
+    <EditText
+        android:id="@+id/etVariable_VI"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="@font/monof56cursive"
+        android:gravity="center_horizontal"
+        android:hint="@string/Variable_vi"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+
+    <!-- Instrucciones generales (1) -->
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20sp"
+        android:paddingTop="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="20sp"
+        android:text="@string/tvInstructions"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <!-- Spinner general -->
+    <Spinner
+        android:id="@+id/spOperaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20sp"
+        android:paddingTop="20sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="20sp"
+        android:entries="@array/Operaciones"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!--Formula chicharronera  -->
+    <TextView
+        android:id="@+id/tvFormula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:text="@string/chicharronera"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002"
+        android:visibility="invisible"/>
+
+    <!-- Formula de fuerza de gravedad -->
+    <TextView
+        android:id="@+id/tvFormula2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:text="@string/gravedad"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002"
+        android:visibility="invisible"/>
+
+    <!-- Formula de aceleración -->
+    <TextView
+        android:id="@+id/tvFormula3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:text= "@string/aceleracion"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48000002"
+        android:visibility="invisible"/>
+
+    <!-- Botón para respuestas ecuacion -->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_state_colors"
+        android:enabled="false"
+        android:fontFamily="@font/monof55"
+        android:text="@string/Calculate"
+        android:textColor="@color/button_text_state_colors"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84000003" />
+
+    <!-- Botón para respuestas gravedad -->
+    <Button
+        android:id="@+id/btnCalculate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_state_colors"
+        android:enabled="false"
+        android:fontFamily="@font/monof55"
+        android:text="@string/Calculate2"
+        android:textColor="@color/button_text_state_colors"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84000003" />
+
+    <!-- Botón para respuestas aceleracion -->
+    <Button
+        android:id="@+id/btnCalculate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_state_colors"
+        android:enabled="false"
+        android:fontFamily="@font/monof55"
+        android:text="@string/Calculate3"
+        android:textColor="@color/button_text_state_colors"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84000003" />
+
+    <!-- Resultado 1-->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        tools:text="@string/Resultado" />
+
+    <!-- Resultado 2-->
+    <TextView
+        android:id="@+id/tvResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        tools:text="@string/Resultado" />
+
+    <!-- Resultado 3-->
+    <TextView
+        android:id="@+id/tvResult3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monof55"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69"
+        tools:text="@string/Resultado" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
