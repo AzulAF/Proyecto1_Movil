@@ -119,7 +119,7 @@
         android:ems="10"
         android:fontFamily="@font/monof56cursive"
         android:gravity="center_horizontal"
-        android:hint="@string/Variable_M2"
+        android:hint="@string/Variable_M1"
         android:inputType="numberDecimal"
         android:maxLength="5"
         android:textSize="20sp"
