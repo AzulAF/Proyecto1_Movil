@@ -17,7 +17,8 @@ sin ningún problema, más se deseaba utilizar la opción de "untranslatable" de
 
 
 ### Fuerza Gravitacional
-<p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/7854c9cc-8bce-4558-b5e3-e8097a25948d" alt="Fuerza gravitacional" width="200"/></p>
+<p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/d1049c60-eb9c-4c5a-9752-cef86ef9870d" alt="Fuerza gravitacional" width="200"/></p>
+
 
 
 ### Aceleración
@@ -61,4 +62,10 @@ No existen recursos de texto en hard-coding.
 
 La aplicación esta disponible en dos idiomas desde el archivo de recursos de texto (español e inglés).
 <p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/a5be53b6-6019-454f-a819-02de96d88bf0" alt="Traducción a Inglés" width="300"/></p>
+
+<p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/5358bb42-e5f2-4f0c-83e9-d31bdcc01838" alt="Traducción a Inglés Formula 1" width="200"/></p>
+
+<p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/9c57bb74-a0ea-4551-82f9-1cd9d669ef4e" alt="Traducción a Inglés Formula 2" width="200"/></p>
+
+<p align="center"><img src="https://github.com/AzulAF/Proyecto1_Movil/assets/119392808/af81718a-e7c4-4484-a580-4ba3d3dcd5c8" alt="Traducción a Inglés Formula 3" width="200"/></p>
 
